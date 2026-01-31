@@ -1,0 +1,21 @@
+name: pin_and_paper_journal
+description: Hobonichi-inspired daily planner module for Pin and Paper
+version: 0.0.1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.16.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pin_and_paper_sketchpad:
+    path: ../pin_and_paper_sketchpad
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
